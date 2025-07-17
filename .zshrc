@@ -120,8 +120,8 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # fnm
-FNM_PATH="/home/joachimdorchies/.local/share/fnm"
+FNM_PATH="/home/$USER/.local/share/fnm"
 if [ -d "$FNM_PATH" ]; then
-  export PATH="/home/joachimdorchies/.local/share/fnm:$PATH"
+  export PATH="/home/$USER/.local/share/fnm:$PATH"
   eval "$(fnm env --use-on-cd --resolve-engines --shell zsh)"
 fi

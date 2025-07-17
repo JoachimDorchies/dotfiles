@@ -16,4 +16,3 @@ curl -fsSL https://fnm.vercel.app/install | zsh
 cp ./.zshrc ~
 cp ./.p10k.zsh ~
 p10k configure
-
